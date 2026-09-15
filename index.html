@@ -57,7 +57,7 @@ function showGate(){removeKey();app.classList.add('hidden');gate.classList.remov
 function toast(t){const x=document.getElementById('toast');x.textContent=t;x.classList.add('show');setTimeout(()=>x.classList.remove('show'),2300)}
 function keyHandler(e){if(!document.getElementById('presentation'))return;if(['INPUT','TEXTAREA','BUTTON'].includes(document.activeElement.tagName))return;const s=[...document.querySelectorAll('.section')];let i=s.findIndex(x=>x.getBoundingClientRect().top>innerHeight*.18);if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();goToSec(Math.max(0,i<0?s.length-1:i))}if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();goToSec(Math.max(0,i<0?s.length-1:i-1))}}
 function goToSec(i){[...document.querySelectorAll('.section')][i]?.scrollIntoView({behavior:'smooth'})}function removeKey(){document.removeEventListener('keydown',keyHandler)}
-document.querySelectorAll('.person').forEach(b=>b.onclick=()=>{window.currentRole=b.dataset.role;if(b.dataset.role==='Gavin'){gate.classList.add('hidden');showNotes();return}gate.classList.add('hidden');app.classList.remove('hidden');initPresentation(b.dataset.role)});
+document.querySelectorAll('.person').forEach(b=>b.onclick=()=>{window.currentRole=b.dataset.role;if(b.dataset.role==='Gavin'){gate.classList.add('hidden');app.classList.remove('hidden');showNotes();return}gate.classList.add('hidden');app.classList.remove('hidden');initPresentation(b.dataset.role)});
 </script>
 </body>
 </html>
