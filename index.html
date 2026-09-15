@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f6f7f2" />
+  <meta name="description" content="Sumary × Gavin — Forward Deployed Accountant case study. From pilot to proof in 90 days." />
+  <title>Sumary × Gavin — Case Study</title>
+  <style>
+    :root{
+      --bg:#f6f7f2; --paper:#ffffff; --ink:#101311; --muted:#6e746f; --line:#dfe4de;
+      --accent:#b8ff4d; --accent-2:#dcffb2; --navy:#142015; --red:#ff6b5f; --shadow:0 20px 60px rgba(16,19,17,.08);
+      --radius:26px; --ease:cubic-bezier(.2,.7,.2,1);
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.4;overflow-x:hidden}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 36px));margin:0 auto}
+    .grain{position:fixed;inset:0;pointer-events:none;opacity:.035;z-index:50;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E")}
+    .topbar{position:fixed;top:14px;left:50%;transform:translateX(-50%);width:min(1120px,calc(100% - 28px));z-index:40;display:flex;align-items:center;justify-content:space-between;padding:10px 12px 10px 16px;border:1px solid rgba(16,19,17,.08);background:rgba(255,255,255,.78);backdrop-filter:blur(18px);border-radius:999px;box-shadow:0 8px 30px rgba(16,19,17,.06)}
+    .brand{display:flex;align-items:center;gap:9px;font-weight:800;letter-spacing:-.04em}.brand-mark{width:28px;height:28px;border-radius:50%;background:var(--ink);display:grid;place-items:center;color:var(--accent);font-size:12px}.brand span{font-size:14px}.brand em{font-style:normal;color:var(--muted);font-weight:600;margin-left:3px}.progress{display:flex;align-items:center;gap:10px;font-size:11px;color:var(--muted);font-weight:700;letter-spacing:.08em;text-transform:uppercase}.bar{width:80px;height:5px;background:#ecefea;border-radius:99px;overflow:hidden}.bar i{display:block;width:0;height:100%;background:var(--ink);border-radius:99px;transition:width .6s var(--ease)}
+    main{padding-top:78px}.section{min-height:calc(100svh - 78px);display:flex;align-items:center;padding:64px 0;position:relative}.section-inner{width:100%}
+    .eyebrow{display:flex;align-items:center;gap:9px;color:var(--muted);font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-bottom:22px}.dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(184,255,77,.23)}
+    h1,h2,h3,p{margin-top:0}.hero-title{font-size:clamp(3.5rem,12vw,8.6rem);line-height:.88;letter-spacing:-.075em;max-width:900px;margin-bottom:28px;font-weight:850}.hero-title .soft{color:#9aa19b}.hero-sub{font-size:clamp(1.05rem,2.5vw,1.4rem);color:var(--muted);max-width:680px}.chips{display:flex;flex-wrap:wrap;gap:9px;margin:28px 0}.chip{border:1px solid var(--line);padding:9px 12px;border-radius:999px;background:rgba(255,255,255,.52);font-size:12px;font-weight:700}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}.btn{border:1px solid var(--ink);background:var(--ink);color:white;border-radius:999px;padding:14px 18px;font-weight:800;display:inline-flex;align-items:center;gap:9px;cursor:pointer;transition:transform .25s var(--ease),background .25s var(--ease)}.btn:hover{transform:translateY(-2px)}.btn.secondary{background:transparent;color:var(--ink);border-color:var(--line)}
+    .big-flow{margin-top:66px;display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative}.big-flow:before{content:"";position:absolute;top:16px;left:2%;right:2%;height:1px;background:var(--line)}.flow-item{position:relative;padding-right:12px}.flow-num{width:32px;height:32px;border-radius:50%;background:var(--bg);border:1px solid var(--line);display:grid;place-items:center;font-weight:800;font-size:11px;position:relative;z-index:2}.flow-item strong{display:block;margin-top:13px;font-size:14px}.flow-item small{display:block;margin-top:3px;color:var(--muted);font-size:12px}
+    .grid2{display:grid;grid-template-columns:1.1fr .9fr;gap:26px;align-items:stretch}.panel{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}.panel.pad{padding:28px}.panel h2{font-size:clamp(2rem,5vw,4.5rem);letter-spacing:-.06em;line-height:.95;margin-bottom:18px}.panel p{color:var(--muted)}
+    .quote{background:var(--ink);color:white;padding:30px;border-radius:var(--radius);min-height:100%;display:flex;flex-direction:column;justify-content:space-between}.quote blockquote{font-size:clamp(1.6rem,4vw,2.75rem);line-height:1.05;letter-spacing:-.045em;margin:0}.quote cite{font-style:normal;color:#a9b2ab;font-size:12px;margin-top:36px}.signal{margin-top:24px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.05);padding:13px;border-radius:16px;font-size:12px;color:#d9dfda}.signal b{color:var(--accent)}
+    .timeline{margin-top:25px;display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.phase{padding:18px;border:1px solid var(--line);border-radius:20px;background:var(--paper);transition:transform .3s var(--ease),border-color .3s var(--ease)}.phase:hover{transform:translateY(-5px);border-color:#b9c1ba}.phase.active{border-color:var(--ink);box-shadow:0 12px 35px rgba(16,19,17,.08)}.phase .tag{font-size:11px;font-weight:900;color:var(--muted);letter-spacing:.1em;text-transform:uppercase}.phase h3{font-size:20px;letter-spacing:-.03em;margin:11px 0 8px}.phase p{font-size:13px;color:var(--muted);margin:0}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}.metric{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:20px}.metric b{font-size:32px;letter-spacing:-.06em}.metric span{display:block;color:var(--muted);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;margin-top:4px}.illustrative{font-size:10px;color:#8b938c;margin-top:10px}
+    .demo-wrap{display:grid;grid-template-columns:.75fr 1.25fr;gap:16px;align-items:stretch}.demo-list{display:flex;flex-direction:column;gap:10px}.demo-card{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:18px;text-align:left;cursor:pointer;transition:all .3s var(--ease)}.demo-card:hover,.demo-card.active{transform:translateX(4px);border-color:var(--ink);box-shadow:0 14px 40px rgba(16,19,17,.07)}.demo-card .mini{font-size:10px;color:var(--muted);font-weight:900;letter-spacing:.12em;text-transform:uppercase}.demo-card h3{font-size:18px;margin:8px 0 5px;letter-spacing:-.03em}.demo-card p{font-size:12px;color:var(--muted);margin:0}.demo-stage{background:#101311;color:white;border-radius:26px;padding:20px;min-height:430px;position:relative;overflow:hidden}.stage-head{display:flex;align-items:center;justify-content:space-between;color:#aeb7af;font-size:11px;text-transform:uppercase;font-weight:800;letter-spacing:.1em}.status{display:inline-flex;align-items:center;gap:6px}.status i{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px rgba(184,255,77,.12)}.ledger{margin-top:22px;display:flex;flex-direction:column;gap:8px}.row{display:grid;grid-template-columns:1.25fr .85fr .6fr .5fr;gap:6px;padding:14px 12px;border-radius:15px;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.06);font-size:11px;align-items:center;opacity:.78;transform:translateX(0);transition:all .45s var(--ease)}.row span:last-child{text-align:right;color:#d4ddd5}.row.flag{border-color:rgba(184,255,77,.75);background:rgba(184,255,77,.11);opacity:1;transform:translateX(4px)}.flag-pill{padding:5px 7px;border:1px solid rgba(184,255,77,.45);color:var(--accent);border-radius:999px;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.stage-footer{position:absolute;bottom:18px;left:20px;right:20px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px}.stage-footer p{font-size:12px;color:#aeb7af;margin:0;max-width:380px}.run{background:var(--accent);color:var(--ink);border:0}.run:active{transform:scale(.97)}
+    .risk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:24px}.risk{padding:21px;border:1px solid var(--line);border-radius:22px;background:var(--paper)}.risk .icon{width:34px;height:34px;border-radius:12px;background:#eef2ec;display:grid;place-items:center;margin-bottom:14px}.risk h3{margin-bottom:7px;font-size:17px}.risk p{font-size:12px;color:var(--muted);margin-bottom:0}.risk small{display:block;margin-top:14px;color:#8a918b;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+    .loop{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-top:32px;position:relative}.loop:before{content:"";position:absolute;top:27px;left:7%;right:7%;height:1px;background:var(--line)}.loop-step{text-align:center;position:relative;z-index:2}.circle{margin:0 auto;width:54px;height:54px;border-radius:50%;background:var(--paper);border:1px solid var(--line);display:grid;place-items:center;font-size:13px;font-weight:900}.loop-step strong{display:block;margin-top:13px;font-size:12px}.loop-step span{display:block;color:var(--muted);font-size:10px;margin-top:4px;padding:0 4px}
+    .closing{min-height:calc(100svh - 78px);text-align:center}.closing .section-inner{display:flex;flex-direction:column;align-items:center}.closing h2{font-size:clamp(3rem,12vw,8rem);line-height:.87;letter-spacing:-.075em;max-width:950px;margin-bottom:24px}.closing h2 span{color:#9aa19b}.closing p{max-width:650px;color:var(--muted);font-size:1.1rem}.footer-note{margin-top:44px;font-size:11px;color:#8b928d}.footer-note b{color:var(--ink)}
+    .reveal{opacity:0;transform:translateY(26px);transition:opacity .75s var(--ease),transform .75s var(--ease)}.reveal.in{opacity:1;transform:none}.stagger>*{opacity:0;transform:translateY(16px);transition:opacity .65s var(--ease),transform .65s var(--ease)}.stagger.in>*{opacity:1;transform:none}.stagger.in>*:nth-child(2){transition-delay:.08s}.stagger.in>*:nth-child(3){transition-delay:.16s}.stagger.in>*:nth-child(4){transition-delay:.24s}
+    .toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,24px);background:var(--ink);color:white;border-radius:999px;padding:11px 15px;font-size:11px;font-weight:800;z-index:60;opacity:0;pointer-events:none;transition:all .35s var(--ease);box-shadow:0 18px 50px rgba(0,0,0,.18)}.toast.show{opacity:1;transform:translate(-50%,0)}
+    @media (max-width:800px){.wrap{width:min(100% - 28px,600px)}.section{padding:52px 0;min-height:auto}.section:first-child{min-height:calc(100svh - 78px)}.grid2,.demo-wrap{grid-template-columns:1fr}.timeline{grid-template-columns:1fr 1fr}.metrics{grid-template-columns:1fr 1fr 1fr}.big-flow{grid-template-columns:1fr 1fr;gap:24px 14px}.big-flow:before{display:none}.risk-grid{grid-template-columns:1fr}.loop{grid-template-columns:1fr;gap:16px;text-align:left}.loop:before{left:27px;right:auto;top:27px;bottom:27px;width:1px;height:auto}.loop-step{display:grid;grid-template-columns:54px 1fr;gap:13px;align-items:center;text-align:left}.loop-step strong{margin:0}.loop-step span{padding:0}.circle{margin:0}.progress{display:none}.hero-title{font-size:clamp(3.35rem,15vw,5.5rem)}.topbar{top:10px}}
+    @media (max-width:480px){.timeline{grid-template-columns:1fr}.metrics{grid-template-columns:1fr 1fr}.metrics .metric:last-child{grid-column:1 / -1}.demo-stage{min-height:510px}.row{grid-template-columns:1.15fr .7fr .55fr}.row span:last-child{display:none}.stage-footer{align-items:stretch;flex-direction:column}.btn{width:100%;justify-content:center}.hero-actions .btn{width:auto}.hero-actions{flex-direction:column;align-items:stretch}.hero-actions .btn{justify-content:center}.chips{gap:7px}.chip{font-size:11px}}
+    @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}.reveal,.stagger>*{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="topbar">
+    <a class="brand" href="#start" aria-label="Back to start"><span class="brand-mark">S</span><span>sumary <em>× Gavin</em></span></a>
+    <div class="progress"><span id="sectionLabel">01 / 06</span><div class="bar"><i id="progressBar"></i></div></div>
+  </header>
+
+  <main>
+    <section class="section" id="start" data-title="The challenge">
+      <div class="section-inner wrap">
+        <div class="eyebrow reveal"><span class="dot"></span> Forward Deployed Accountant · Case study</div>
+        <h1 class="hero-title reveal">The problem isn't automation.<br><span class="soft">It's trust.</span></h1>
+        <p class="hero-sub reveal">A 90-day account plan built around one question: can Sumary become something accountants trust enough to use every day?</p>
+        <div class="chips stagger reveal">
+          <span class="chip">15 accountants</span><span class="chip">3 partners</span><span class="chip">1 sceptic</span><span class="chip">90 days</span>
+        </div>
+        <div class="hero-actions reveal"><button class="btn" id="startBtn">Start the pilot <span>→</span></button><a class="btn secondary" href="#plan">Jump to 90-day plan</a></div>
+        <div class="big-flow reveal">
+          <div class="flow-item"><div class="flow-num">01</div><strong>Noise</strong><small>Too many alerts</small></div>
+          <div class="flow-item"><div class="flow-num">02</div><strong>Signal</strong><small>Only issues that matter</small></div>
+          <div class="flow-item"><div class="flow-num">03</div><strong>Trust</strong><small>Accountants act on it</small></div>
+          <div class="flow-item"><div class="flow-num">04</div><strong>Scale</strong><small>Proof creates rollout</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="mindset" data-title="My starting point">
+      <div class="section-inner wrap">
+        <div class="eyebrow reveal"><span class="dot"></span> 00 / Mindset</div>
+        <div class="grid2">
+          <div class="panel pad reveal">
+            <h2>Don't try to “win” the sceptic.</h2>
+            <p>Use them to define what good looks like. In week one, I want the sceptical partner to tell me exactly what would make them change their mind — then turn that into measurable acceptance criteria.</p>
+            <div class="signal"><b>My question:</b> “What would Sumary have to prove in 90 days for you to say this is genuinely useful?”</div>
+          </div>
+          <div class="quote reveal">
+            <blockquote>“A small number of high-confidence alerts is more valuable than hundreds of possible anomalies.”</blockquote>
+            <cite>My design principle for the pilot</cite>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="plan" data-title="90-day plan">
+      <div class="section-inner wrap">
+        <div class="eyebrow reveal"><span class="dot"></span> 01 / 90-day plan</div>
+        <div class="panel pad reveal">
+          <h2>From pilot to proof.</h2>
+          <p>Success at day 90 is not “15 users logged in”. It is evidence that Sumary catches real issues, reduces manual review, and fits naturally into the firm's workflow.</p>
+          <div class="timeline" id="timeline">
+            <button class="phase active" data-phase="0"><div class="tag">Week 1</div><h3>Understand</h3><p>Map workflows, meet all three partner profiles, baseline review effort and agree what “useful” means.</p></button>
+            <button class="phase" data-phase="1"><div class="tag">Days 7–30</div><h3>Prove signal</h3><p>Deploy 3 high-value checks. Review every alert. Tune aggressively to reduce noise.</p></button>
+            <button class="phase" data-phase="2"><div class="tag">Days 30–60</div><h3>Embed</h3><p>Make Sumary part of the existing review process. Expand across the 15 accountants.</p></button>
+            <button class="phase" data-phase="3"><div class="tag">Days 60–90</div><h3>Prove value</h3><p>Quantify issues caught, review effort reduced and build the rollout case with all partners.</p></button>
+          </div>
+          <div class="metrics">
+            <div class="metric"><b id="metric1">—</b><span>signal quality</span></div>
+            <div class="metric"><b id="metric2">—</b><span>active users</span></div>
+            <div class="metric"><b id="metric3">—</b><span>rollout decision</span></div>
+          </div>
+          <div class="illustrative">Illustrative targets / demo values — not client results.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="automations" data-title="Three automations">
+      <div class="section-inner wrap">
+        <div class="eyebrow reveal"><span class="dot"></span> 02 / The first three checks</div>
+        <div class="demo-wrap">
+          <div class="demo-list stagger reveal">
+            <button class="demo-card active" data-demo="duplicate"><div class="mini">01 · Duplicate invoices</div><h3>Same supplier. Same invoice.</h3><p>High-confidence match on supplier + invoice reference; fallback to supplier + date + amount.</p></button>
+            <button class="demo-card" data-demo="vat"><div class="mini">02 · VAT coding</div><h3>Does the code fit the context?</h3><p>Compare VAT treatment against supplier/account history and transaction context, weighted by materiality.</p></button>
+            <button class="demo-card" data-demo="cutoff"><div class="mini">03 · Period cut-off</div><h3>Does the transaction belong here?</h3><p>Compare invoice date, posting date and accounting period; flag material cross-period exceptions.</p></button>
+          </div>
+          <div class="demo-stage reveal" id="demoStage">
+            <div class="stage-head"><span id="stageTitle">Scanning purchase ledger</span><span class="status"><i></i> Live demo</span></div>
+            <div class="ledger" id="ledger"></div>
+            <div class="stage-footer"><p id="stageDescription">Flag only where the evidence is strong enough that a senior would actually want to look.</p><button class="btn run" id="runCheck">Run check ↗</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="risks" data-title="Account killers">
+      <div class="section-inner wrap">
+        <div class="eyebrow reveal"><span class="dot"></span> 03 / What could kill the account?</div>
+        <div class="panel pad reveal">
+          <h2>I'd look for failure early.</h2>
+          <p>By day 30 I want to know whether we have a product-value problem or an adoption problem.</p>
+          <div class="risk-grid stagger reveal">
+            <div class="risk"><div class="icon">01</div><h3>False positives</h3><p>Alerts outnumber useful findings. Seniors stop opening them.</p><small>Day-30 signal → dismissal rate</small></div>
+            <div class="risk"><div class="icon">02</div><h3>No workflow owner</h3><p>Issues are surfaced but nobody knows who is expected to resolve them.</p><small>Day-30 signal → unresolved ageing</small></div>
+            <div class="risk"><div class="icon">03</div><h3>Champion dependency</h3><p>The champion loves it, but the sceptic and neutral partner never adopt it.</p><small>Day-30 signal → stakeholder interviews</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="product" data-title="Product feedback">
+      <div class="section-inner wrap">
+        <div class="eyebrow reveal"><span class="dot"></span> 04 / Feed the product</div>
+        <div class="grid2">
+          <div class="panel pad reveal">
+            <h2>Turn field friction into product signal.</h2>
+            <p>After 90 days I would not send product a list of feature requests. I'd send patterns: what users ignore, what they still check manually, and where configuration keeps recurring.</p>
+            <div class="signal" style="margin-top:26px;color:#4f5650;background:#f5f7f3;border-color:var(--line)"><b style="color:var(--ink)">Prioritisation:</b> frequency × time saved × risk reduction × firms affected.</div>
+          </div>
+          <div class="panel pad reveal">
+            <div class="loop">
+              <div class="loop-step"><div class="circle">01</div><div><strong>False positive</strong><span>What did users ignore?</span></div></div>
+              <div class="loop-step"><div class="circle">02</div><div><strong>False negative</strong><span>What did humans catch?</span></div></div>
+              <div class="loop-step"><div class="circle">03</div><div><strong>Workflow friction</strong><span>Where did users leave Sumary?</span></div></div>
+              <div class="loop-step"><div class="circle">04</div><div><strong>Configuration</strong><span>What rules repeat?</span></div></div>
+              <div class="loop-step"><div class="circle">05</div><div><strong>Next automation</strong><span>What decision is repeatable?</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section closing" id="close" data-title="Close">
+      <div class="section-inner wrap">
+        <div class="eyebrow reveal"><span class="dot"></span> 05 / The close</div>
+        <h2 class="reveal">Would the sceptical partner <span>renew?</span></h2>
+        <p class="reveal">Only if the evidence says yes. My goal is to leave the firm with a proof point, not a promise.</p>
+        <div class="hero-actions reveal"><button class="btn" id="restartBtn">↺ Replay the story</button><a class="btn secondary" href="mailto:">Discuss the case →</a></div>
+        <div class="footer-note reveal"><b>Gavin</b> · Forward Deployed Accountant case study · Sumary × Gavin</div>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast">Check complete — 1 high-confidence issue found.</div>
+
+  <script>
+    const sections=[...document.querySelectorAll('.section')];
+    const labels=document.getElementById('sectionLabel');
+    const progress=document.getElementById('progressBar');
+    const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function goTo(i){ sections[Math.max(0,Math.min(sections.length-1,i))].scrollIntoView({behavior:reduced?'auto':'smooth'}); }
+    document.getElementById('startBtn').addEventListener('click',()=>goTo(2));
+    document.getElementById('restartBtn').addEventListener('click',()=>goTo(0));
+    document.addEventListener('keydown',e=>{ if(['INPUT','TEXTAREA','BUTTON'].includes(document.activeElement.tagName)) return; if(e.key==='ArrowDown'||e.key==='ArrowRight'||e.key===' '){e.preventDefault();const idx=sections.findIndex(s=>s.getBoundingClientRect().top>window.innerHeight*.15);goTo(idx<0?sections.length-1:idx)} if(e.key==='ArrowUp'||e.key==='ArrowLeft'){e.preventDefault();const idx=sections.findIndex(s=>s.getBoundingClientRect().bottom>window.innerHeight*.2);goTo(Math.max(0,idx-1))} });
+
+    const io=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.querySelectorAll('.reveal,.stagger').forEach(el=>el.classList.add('in'));}})},{threshold:.12}); sections.forEach(s=>io.observe(s));
+    const navio=new IntersectionObserver(entries=>{entries.filter(e=>e.isIntersecting).forEach(entry=>{const i=sections.indexOf(entry.target);labels.textContent=String(i+1).padStart(2,'0')+' / '+String(sections.length).padStart(2,'0');progress.style.width=((i)/(sections.length-1))*100+'%';})},{threshold:.5}); sections.forEach(s=>navio.observe(s));
+
+    const phaseData=[['>85%','10+','Continue'],['>90%','12+','Scale'],['>90%','13+','Rollout'],['>92%','14+','Yes']];
+    document.querySelectorAll('.phase').forEach((btn,i)=>btn.addEventListener('click',()=>{document.querySelectorAll('.phase').forEach(x=>x.classList.remove('active'));btn.classList.add('active');const d=phaseData[i];['metric1','metric2','metric3'].forEach((id,j)=>document.getElementById(id).textContent=d[j]);}));
+    document.querySelector('.phase.active').click();
+
+    const demos={
+      duplicate:{title:'Scanning purchase ledger',desc:'Supplier + invoice reference first. Fallback to supplier + date + amount when the reference is missing.',rows:[['ABC Ltd','INV-10482','£1,240','28 Mar'],['Northline','INV-20814','£820','29 Mar'],['ABC Ltd','INV-10482','£1,240','29 Mar'],['Bright Office','BO-7731','£415','29 Mar'],['Northline','INV-20815','£820','30 Mar']],flag:2,pill:'Duplicate',toast:'Check complete — 1 likely duplicate found.'},
+      vat:{title:'Checking VAT treatment',desc:'Compare the current VAT code with the supplier/account pattern, then weight exceptions by materiality.',rows:[['Adobe','SUB-4312','£78','Std'],['Railcard','RC-1011','£65','Exempt'],['City Taxi','TX-9918','£185','Std'],['Acme Legal','AL-7712','£18k','Exempt'],['Acme Legal','AL-7713','£14k','Std']],flag:3,pill:'Review VAT',toast:'Check complete — 1 material VAT exception found.'},
+      cutoff:{title:'Checking period cut-off',desc:'Compare invoice date, posting date and accounting period. Ignore approved period-end journals.',rows:[['Cloudhost','CH-8841','£420','31 Mar → Mar'],['Acme Legal','AL-8821','£25k','31 Mar → Apr'],['OfficeCo','OC-7712','£190','02 Apr → Apr'],['Northline','NL-5513','£9.2k','30 Mar → Mar'],['Delta Media','DM-1123','£32k','03 Apr → Mar']],flag:1,pill:'Cut-off',toast:'Check complete — 1 material cut-off exception found.'}
+    };
+    let current='duplicate';
+    const ledger=document.getElementById('ledger');
+    function renderDemo(key,run=false){current=key;const d=demos[key];document.getElementById('stageTitle').textContent=d.title;document.getElementById('stageDescription').textContent=d.desc;ledger.innerHTML='';d.rows.forEach((r,i)=>{const row=document.createElement('div');row.className='row'+(run&&i===d.flag?' flag':'');row.innerHTML=`<span>${r[0]} · ${r[1]}</span><span>${r[2]}</span><span>${r[3]}</span><span>${run&&i===d.flag?`<span class="flag-pill">${d.pill}</span>`:'•'}</span>`;ledger.appendChild(row)});}
+    document.querySelectorAll('.demo-card').forEach(card=>card.addEventListener('click',()=>{document.querySelectorAll('.demo-card').forEach(x=>x.classList.remove('active'));card.classList.add('active');renderDemo(card.dataset.demo,false)}));
+    renderDemo('duplicate',false);
+    document.getElementById('runCheck').addEventListener('click',()=>{renderDemo(current,true);const t=document.getElementById('toast');t.textContent=demos[current].toast;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2400)});
+  </script>
+</body>
+</html>
